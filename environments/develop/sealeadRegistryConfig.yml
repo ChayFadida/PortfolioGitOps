@@ -1,0 +1,15 @@
+apiVersion: bitnami.com/v1alpha1
+kind: SealedSecret
+metadata:
+  creationTimestamp: null
+  name: harbor-registry-key
+  namespace: chay-techs-development
+spec:
+  encryptedData:
+    .dockerconfigjson: AgCIjbXf1NnSL8iBguZ0IHvpx8qB8ZkUIUBKyaN1xIJicib9v07KbxSjtwz9pAXPnUJiNWVhK9AER8tukSjIX4izpOOauwJzZsZf1QnjVPYGviXUEH6ciVCVdodkeEDUVIRna/0rZ/QK4XcmaXOFusR/S9hhbM6koK4Gdl2CJ6AuyEeNpHXOwK3fpgrfTxUTOwASTTDZEPTwtFi5eWGX9M0ukwyNtmNoe2mKi/gibI55W/fFnvBhXCv6tVHSDnN9yg5Tn/TfNef6IhHWsjlA7vbmv+RMc3B24730vhw8yjEVbQSyurkG3Uq5qCTbZCrWKzfyGcXelxasWKyVXXpAtoGOgOX80VZmnIyZ9vACUNlKXM6p06MbVahIEpwABY2wqJYoLs1rFdqsVI7pLWkWbCtlm9q5pzrrtmsJI+kcfO9NB6Fu1XW3XSxUA4HOmX/m3ys3mZXkTM9VvT1GlD8HD/9PRGGGROxgvFjUxO+0IRbbPFeEvtJ4PxiJyyBQyWJ8yIjEQJ5Kb5LKwWr/1P8iG3+XWAfS59ke2rZBeBElU//myqWC3bYWNKZrIr3DGPt4ozOl60eubP0h43JWWuvizzKsi2M+/vymwcqQy612F3NU3LoO4+UwwlrudPfkGIiGGLDWbQSl5TarPANwrkY9I0xwIaYYjXU+B8Ru24aiWChjiGvJXiaKTPHTv7r1TdL4AnwS1jT9SzqIjHqJlEmXO9ssMVIsZx1f/d5JkrCkDdwhWtb92nkKUMPaTH/R0ADgTyidkTYaycY7kMexKrC1FPHKbSrwArxf/awjvMW9aIf2xFu5IWWk
+  template:
+    metadata:
+      creationTimestamp: null
+      name: harbor-registry-key
+      namespace: chay-techs-development
+    type: kubernetes.io/dockerconfigjson
